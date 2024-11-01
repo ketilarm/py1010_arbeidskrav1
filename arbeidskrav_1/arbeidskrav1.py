@@ -30,11 +30,15 @@ forsikring_bensinbil=7500
 bomavgift_bensinbil=0.3
 drivstoff_forbruk_bensinbil=1.0
 
+
 #Utregninger
+
 #Kostnader elbil
 årligeutgifter_elbil=forsikring_elbil+(trafikkforsikringsavgift)+(årlig_kjørelengde*(drivstoff_forbruk_elbil*strømpris))+(bomavgift_elbil*årlig_kjørelengde)
+
 #kostnader bensinbil
 årligeutgifter_bensinbil=forsikring_bensinbil+(trafikkforsikringsavgift)+(drivstoff_forbruk_bensinbil*årlig_kjørelengde)+(bomavgift_bensinbil*årlig_kjørelengde)
+
 # Kostnadsdifferanse bensinbil vs elbil
 kostnadsdifferanse=årligeutgifter_bensinbil-årligeutgifter_elbil
 
